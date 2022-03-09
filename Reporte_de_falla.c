@@ -1,10 +1,5 @@
-/******************************************************************************
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
+// FIX CODE!!!
 
 #include <stdio.h>
 #include <stdbool.h>
@@ -29,16 +24,16 @@ int main()
 void Interface_falla(bool hay_falla)
 {
     /*Imprime el estado de la falla*/
-    printf("¿La falla esta presente?");
+    printf("Â¿La falla esta presente?\n");
     printf(hay_falla? "true" : "false");
 }
 
 void Reporte_de_falla(Corto_T dato)
 {
-    bool falla = false;
+    bool falla = true;
     if (SIN_CORTOS == dato)
     {
-        falla = true;
+        falla = false;
     }
     Interface_falla(falla);
 }
